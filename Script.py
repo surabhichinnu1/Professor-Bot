@@ -15,7 +15,7 @@ class script(object):
 <b>✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂 : 𝚅1.0.43 [𝙼𝙰𝙹𝙾𝚁]</b>"""
     SOURCE_TXT = """<b>NOTE:</b>
 - This is a Eva Mari clone Project 
-- Source -  https://github.com/Aadhi000/Ajax-Extra-Features
+- Source -  https://github.com/MrMKN/PROFESSOR-BOT
 <b>DEVS:</b>
 - 𝙱𝙾𝚃 𝙰𝙳𝙼𝙸𝙽<a href=https://t.me/mr_MKN>𝙲𝙺 𝙷𝙴𝙻𝙿𝙴𝚁</a>
 - 𝙳𝚎𝚟 1<a href=https://t.me/mr_MKN>𝙼𝚛.𝙼𝙺𝙽 𝚃𝙶</a>
