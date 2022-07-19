@@ -180,8 +180,8 @@ async def advantage_spoll_choker(bot, query):
             await auto_filter(bot, query, k)
         else:
             k = await query.message.edit(
-                    text=f"{movies} 𝙼𝙾𝚅𝙸𝙴 I𝚂 𝙽𝙾𝚃 𝚈𝙴𝚃 𝚁𝙴𝙻𝙴𝙰𝚂𝙴𝙳 𝙾𝚁 𝙰𝙳𝙳𝙴𝙳 𝚃𝙾 𝙳𝙰𝚃𝚂𝙱𝙰𝚂𝙴 💌",
-                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"Request To Add {movies}✅️", url="https://t.me/CK_HELPER")]])   
+                    text="𝚃𝙷𝙸𝚂 𝙼𝙾𝚅𝙸𝙴 I𝚂 𝙽𝙾𝚃 𝚈𝙴𝚃 𝚁𝙴𝙻𝙴𝙰𝚂𝙴𝙳 𝙾𝚁 𝙰𝙳𝙳𝙴𝙳 𝚃𝙾 𝙳𝙰𝚃𝚂𝙱𝙰𝚂𝙴 💌",
+                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("💫 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝚃𝙾 𝙰𝙳𝙼𝙸𝙽", url="https://t.me/CK_HELPER")]])   
                     )
             await asyncio.sleep(30)
             await k.delete()
@@ -689,14 +689,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "rmbgsticker":
         await removebg_sticker(client, query.message)
     elif query.data == "pages":
-        await query.answer()
+        await query.answer("😂 കൗതുകം ലേഷം കൂടുതലാണല്ലേ")
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('🤠 Dev 🤠', url='https://t.me/CK_HELPER'), 
-            InlineKeyboardButton('📢 UPDATES 📢', url='https://t.me/Cinema_Kottaka7')
+            InlineKeyboardButton('🤠 OWNER ', url='https://t.me/CK_HELPER'), 
+            InlineKeyboardButton('📢 UPDATES ', url='https://t.me/Cinema_Kottaka7')
             ],[      
-            InlineKeyboardButton('ℹ️ Help ℹ️', callback_data='help'),
-            InlineKeyboardButton('😊 About 😊', callback_data='about')
+            InlineKeyboardButton('ℹ️ HELP', callback_data='help'),
+            InlineKeyboardButton('😊 ABOUT', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -814,7 +814,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode='html'
         )
     elif query.data == "source":
-        buttons = [[
+        buttons = [[   
+            InlineKeyboardButton('💫 Repo 💫', url='https://github.com/MrMKN/PROFESSOR-BOT')
+            ],[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
